@@ -1,0 +1,238 @@
+body{
+	height: auto;
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	height: 70px;
+	background: rgb(51,51,51);
+}
+.logo{
+	display: inline-block;
+	padding-left: 20%;
+	padding-top: 20px;
+}
+.logo img{
+	margin-bottom: 35px;
+}
+.login{
+	display: inline-block;
+	margin-left: 16%;
+	padding-left: 10px;
+	width: auto;
+}
+.email{
+	float: left;
+	margin-top: 12px;
+}
+.email input{
+	height: 16px;
+	width: 200px;
+	padding: 3px;
+	padding-bottom: 4px;
+	border-radius: 2px;
+}
+.password{
+	float: left;
+	color: white;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+.password input{
+	height: 16px;
+	width: 200px;
+	padding: 3px;
+	padding-bottom: 4px;
+	border-radius: 2px;
+}
+.password a{
+	color: white;
+	text-decoration: none;
+}
+.password p{
+	margin-top: 5px;
+	padding-bottom: 5px;
+	color: #ccc;
+	font-size: 12px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.btn{
+	float: left;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+#btn{
+	width: 55px;
+	height: 27px;
+	color: black;
+	opacity: 0.6;
+	border: 1px solid #333;
+	cursor: pointer;
+	font-family: Helvetica;
+	font-size: 12px;
+	line-height: 18px;
+	border-radius: 3px;
+}
+.content{
+	background-image: url(https://static.licdn.com/sc/h/64xk850n3a8uzse6fi11l3vmz);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 490px;
+	width: auto;
+	padding-top: 10px;
+}
+.form{
+	width: 350px;
+	padding: 15px 30px 30px;
+	background-color: rgba(225, 225, 225, .97);
+	height: 410px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding-left: 20px; 
+}
+form{
+	display: block;
+	margin-top: 0em;
+}
+.form h2{
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: lighter;
+	color: #333;
+	margin: 0 0 13px;
+	text-align: center;
+	font-family: sans-serif;
+}
+.form h3{
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: lighter;
+	color: #333;
+	margin: 0 0 18px;
+	text-align: center;
+	font-family: sans-serif;
+}
+.form label{
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #66696a;
+}
+.form input{
+	width: 357px;
+	height: 29px;
+	border-radius:3px;
+	border: 1px solid #BFBFBF;
+	margin-bottom: 13px;
+}
+.condition{
+	text-align: center;
+	width: 310px;
+	font-size: 12px;
+	margin-left: 33px;
+	margin-top: 0px;
+	color: #5E5E5E;
+	font-family: Arial, Helvetica, sans-serif
+}
+a{
+	text-decoration: none;
+	color: rgb(156, 180, 216);
+}
+.form button{
+	margin-left: 12px;
+	padding: 8px;
+	width: 350px;
+	background: linear-gradient(#EDDA11, #F6C70C);
+	border: 1px solid #E9AC1A;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333333;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.service{
+	width: 100%;
+	height: 280px;
+	background-color: rgb(51, 51, 51);
+}
+.ser_col{
+	text-align: center;
+	width: 100%;
+}
+form{
+	display: block;
+	margin-top: 0em;
+}
+.ser_col p{
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(204, 204, 175);
+	font-size: 13px;
+	font-weight: bold;
+}
+.cont{
+	width: 200px;
+	height: 22px;
+	border-radius: 3px;
+}
+.col{
+	color: rgb(60, 60, 60);
+	width: 70px;
+	height: 28px;
+	border-radius: 2px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(120, 120, 120);
+	border-image: initial;
+	background: linear-gradient(rgb(158, 158, 158), rgb(120, 120, 120));
+}
+#country{
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(204, 204, 175);
+	font-size: 13px;
+	text-align: center;
+}
+hr{
+	width: 56%;
+}
+.info{
+	width: 100%;
+	overflow: hidden;
+}
+.gen{
+	width: 30%;
+	float: left;
+	margin-left: 300px;
+}
+.gen1{
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(204, 204, 175);
+	font-size: 13px;
+	font-weight: bold;
+}
+.gen2{
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(204, 204, 175);
+	font-size: 12px;
+}
+.busn{
+	width: 25%;
+	float: left;
+}
+.footer{
+	width: 100%;
+	background-color: black;
+}
+.ft1{
+	text-align: center;
+	color: white;
+	height: 20px;
+	padding: 25px;
+}
+.ft2{
+	padding: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(204, 204, 175);
+	font-size: 12px;
+}
